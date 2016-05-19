@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 6
+
+deploy:
+  provider: npm
+  email: hello@langa.io
+  api_key:
+    secure: akb7BeDKbCbFi81fZfgHhmwxRCzgJg2JUl5vTje61AEsgzI6p2tpT61yi+jKTZ+7V0oBD5thTqasS67sWxVIy4hAamR+IVD/jBnXcTNKl4hu7Ru9/2krXqh/BSXU6C2v+QGfJ+vMrB0WfpQo9TMJ3MrhmilfRl0QNTS4EhiVMV/RMugrPLqgbK4JifYv6V5S1X79J8nopWHUJNFDvJsbLzNw9A00d+X1k26OaCPPOGDihLQKDRqyoAATzLBgCybOku3EYlU/jR2KeDnKNvopKixQzj0/WCOGjdqABpHrTGy2O2OCxt7cCoeudPTDP8dXB64PHcteXLQooDPdM3yKJVEauxUdOEWcAjlXOU1ByqsiKtGwFk8QV8E0OOaQc0O3V6kjPmomRKiwoETCMMS1ytRMjmPjTR5iX5APCajDQ/dVQ0JJ6EYKO497GI9pkQTn1Hx+Z3PcmQC1Gcgo+QvrhZSZfDNgfwkvBkvbkMjD5qfeA6rbkEAMwSFVRUP2lhQGDbVgol/6iJ7v68f+SLRJOiAzQ/EZ9AAR2hsUKuXZCwqGzAZlqpVmFmC8WX5Wwzpn/8688aUWlyFAgBPnCWpoyczs7gsC3R8nlK5Mk30ZpEnPcCSAsLn1oDNtbzg0Fu6JTE9LNOzVbKNY/9oYnYifnUzm8Fmhy5YVpVQAggi8uuQ=
+  on:
+    tags: true
+    repo: langateam/knex-postgis
