@@ -90,8 +90,7 @@ knex.postgisDefineExtras(function(knex, formatter){
 
 ## Maintained By
 [<img src='http://i.imgur.com/Y03Jgmf.png' height='64px'>](http://langa.io)
-
-<img src="https://langa.io/fonts/skyline.svg">
+[<img src='https://langa.io/fonts/skyline.svg' height='64px'>](http://langa.io)
 
 [npm-image]: https://img.shields.io/npm/v/@langateam/knex-postgis.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@langateam/knex-postgis
