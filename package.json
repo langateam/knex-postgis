@@ -1,7 +1,7 @@
 {
   "name": "knex-postgis",
   "version": "0.1.8",
-  "description": "postgis extension for knex",
+  "description": "Postgis Extension for Knex",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
     "sql builder"
   ],
   "author": "Jorge Godoy <godoy.jf@gmail.com>",
+  "contributors": [
+    {
+      "name": "Langa Team",
+      "email": "hello@langa.io"
+    }
+  ],
   "license": "MIT"
 }
