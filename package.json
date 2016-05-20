@@ -1,6 +1,6 @@
 {
   "name": "knex-postgis",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Postgis Extension for Knex",
   "main": "lib/index.js",
   "repository": {
